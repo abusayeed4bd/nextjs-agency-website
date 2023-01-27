@@ -16,7 +16,7 @@ export default function Home() {
         <title>Home - DigitalXplore</title>
         <meta name="description" content="Digital marketing agency in bangladesh" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.png" />
+        <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className=''>
         <Hero />
