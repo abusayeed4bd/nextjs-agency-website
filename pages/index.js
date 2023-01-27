@@ -17,10 +17,19 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.png" />
       </Head>
-      <main>
+      <main className=''>
         <Hero />
         <About />
-        <ServicesList />
+
+        <div style={{ backgroundImage: "url('/s-bg.png')", backgroundPosition: "center top" }} className='py-24 px-12 bg-indigo-100'>
+          <div className="ml-2">
+            <h4 className='text-indigo-500 text-2xl font-semibold'>Services</h4>
+            <h2 className='text-4xl font-bold mb-8 text-slate-600'>Our Most <br /> Popular Services</h2>
+          </div>
+          <ServicesList />
+        </div>
+
+
       </main>
 
 
