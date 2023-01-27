@@ -1,4 +1,5 @@
 
+import AboutSection from '@/components/Home/AboutSection'
 import React from 'react'
 
 const About = () => {
@@ -8,6 +9,8 @@ const About = () => {
             <div style={{ backgroundImage: "url('/hero-bg.png')", backgroundPosition: "center bottom" }} className="pt-48 pb-12">
                 <h1 className='text-center text-4xl font-bold'>About</h1>
             </div>
+
+            <AboutSection />
 
 
         </div>

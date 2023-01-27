@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 
-const About = () => {
+const AboutSection = () => {
     return (
         <div>
             <div className="flex py-12 mx-12">
@@ -21,4 +21,4 @@ const About = () => {
     )
 }
 
-export default About
+export default AboutSection

@@ -1,10 +1,11 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from '@next/font/google'
-import styles from '@/styles/Home.module.css'
+
 import Hero from '@/components/Home/Hero'
-import About from '@/components/Home/About'
+
 import ServicesList from '@/components/Home/ServicesList'
+import AboutSection from './../components/Home/AboutSection';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -19,7 +20,7 @@ export default function Home() {
       </Head>
       <main className=''>
         <Hero />
-        <About />
+        <AboutSection />
 
         <div style={{ backgroundImage: "url('/s-bg.png')", backgroundPosition: "center top" }} className='py-24 px-12 bg-indigo-100'>
           <div className="ml-2">
