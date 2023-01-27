@@ -13,7 +13,7 @@ const ServicesList = () => {
                         <Image src={"/web-development.png"} height={100} width={400} alt="smm" />
                     </figure>
                     <div className="card-body text-center">
-                        <h2 className="text-2xl font-bold ">Shoes!</h2>
+                        <h2 className="text-2xl font-bold ">Web Development</h2>
                         <p className='text-lg'>If a dog chews shoes whose shoes does he choose?</p>
 
                     </div>
@@ -24,7 +24,7 @@ const ServicesList = () => {
                         <Image src={"/graphics-design.png"} height={100} width={400} alt="smm" />
                     </figure>
                     <div className="card-body text-center">
-                        <h2 className="text-2xl font-bold ">Shoes!</h2>
+                        <h2 className="text-2xl font-bold ">Graphics Design</h2>
                         <p className='text-lg'>If a dog chews shoes whose shoes does he choose?</p>
 
                     </div>
@@ -35,7 +35,7 @@ const ServicesList = () => {
                         <Image src={"/smm.png"} height={100} width={400} alt="smm" />
                     </figure>
                     <div className="card-body text-center">
-                        <h2 className="text-2xl font-bold ">Shoes!</h2>
+                        <h2 className="text-2xl font-bold ">Social Media Marketing</h2>
                         <p className='text-lg'>If a dog chews shoes whose shoes does he choose?</p>
 
                     </div>
@@ -46,7 +46,7 @@ const ServicesList = () => {
                         <Image src={"/search-engine-opetimization.png"} height={100} width={400} alt="smm" />
                     </figure>
                     <div className="card-body text-center">
-                        <h2 className="text-2xl font-bold ">Shoes!</h2>
+                        <h2 className="text-2xl font-bold ">SEO</h2>
                         <p className='text-lg'>If a dog chews shoes whose shoes does he choose?</p>
 
                     </div>
