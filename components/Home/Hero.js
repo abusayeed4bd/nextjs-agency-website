@@ -12,7 +12,7 @@ const Hero = () => {
                     <Image src={"/hero-img.png"} alt="hero-img" width={500} height={250} className=" hidden md:block  "  ></Image>
                     <div className='mt-24 mr-12 text-center md:text-left'>
                         <h4 className='text-3xl font-semibold mb-8'>All in one Solution for <span className='text-indigo-600 top-title'>your company</span></h4>
-                        <h1 className="text-5xl font-semibold ">Unlock Your Digital Potential With Our Customized Solutions</h1>
+                        <h1 className="text-5xl font-bold ">Unlock Your Digital Potential With Our Customized Solutions</h1>
                         <p className="py-6 text-slate-500 text-md ">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
                         <button className="btn btn-primary">Get Started</button>
                     </div>
